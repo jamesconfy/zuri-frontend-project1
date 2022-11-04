@@ -4,7 +4,7 @@ import InternalButton from "./InternalButton";
 function Links() {
   return (
     <div className="flex flex-col items-center gap-6">
-      <Button title="Twitter Link" address="" />
+      <Button title="Twitter Link" address="https://twitter.com/jamesconfy" id="twitter" />
       <Button title="Zuri Team" address="https://training.zuri.team/" id="btn__zuri" />
       <Button title="Zuri Books" address="http://books.zuri.team" id="books" />
       <Button title="Python Books" address="https://books.zuri.team/python-for-beginners?ref_id=Confidence James" id="book__python" />
