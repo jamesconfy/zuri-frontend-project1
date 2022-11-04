@@ -1,5 +1,5 @@
-import Content from "./Content";
-import Social from "./Social";
+import Content from "../components/Content";
+import Social from "../components/Social";
 
 function Home() {
   return (

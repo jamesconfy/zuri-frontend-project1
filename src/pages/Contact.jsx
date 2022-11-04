@@ -1,6 +1,6 @@
-import Input from "./Input";
-import TextArea from "./TextArea";
-import CheckBox from "./CheckBox";
+import Input from "../components/Input";
+import TextArea from "../components/TextArea";
+import CheckBox from "../components/CheckBox";
 
 function Contact() {
   return (
