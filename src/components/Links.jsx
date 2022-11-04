@@ -1,4 +1,5 @@
 import Button from "./Button";
+import InternalButton from "./InternalButton";
 
 function Links() {
   return (
@@ -9,6 +10,7 @@ function Links() {
       <Button title="Python Books" address="https://books.zuri.team/python-for-beginners?ref_id=Confidence James" id="book__python" />
       <Button title="Background Check for Coders" address="https://background.zuri.team" id="pitch" />
       <Button title="Design Books" address="https://books.zuri.team/design-rules" id="book__design" />
+      <InternalButton title="Contacts" address="/contact" id="contact" />
     </div>
   );
 }

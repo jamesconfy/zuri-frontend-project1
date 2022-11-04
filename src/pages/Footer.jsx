@@ -3,7 +3,7 @@ import I4G from "../assets/I4G.svg";
 
 function Footer() {
   return (
-    <div className="flex-col items-center py-12 px-0 gap-16 md:flex">
+    <div className="flex-col items-center py-12 px-0 gap-16 md:flex absolute">
       <div className="container md:flex flex-start flex-col px-8 py-0 gap-8">
         <div className="box-border md:flex flex-row justify-between items-center pt-8 gap-8 border-t-[#EAECF0] border-t-[solid] border-t-[1px]">
           <img src={logo} alt="logo" className="w-[187.59px] h-8 md:mb-0 mb-6" />
