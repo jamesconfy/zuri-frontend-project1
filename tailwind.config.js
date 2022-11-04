@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       dropShadow: {
         "2x": "0px 1px 2px rgba(16, 24, 40, 0.05)",
+        "1x": "0px 1px 2px rgba(16, 24, 40, 0.05)",
       },
     },
   },
