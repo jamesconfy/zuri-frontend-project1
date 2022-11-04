@@ -4,7 +4,7 @@ import CheckBox from "./CheckBox";
 
 function Contact() {
   return (
-    <div className="bg-[#ffffff] md:flex flex-col items-center justify-center px-0 pt-16 pb-24 gap-16 relative">
+    <div className="bg-[#ffffff] md:flex flex-col items-center justify-center px-0 md:pt-16 pt-4 md:pb-24 pb-4 gap-16 relative">
       <div className="container flex flex-row justify-center items-center py-0 px-8 gap-16">
         <div className="flex flex-col justify-center items-center p-0">
           <div className="flex flex-col items-start p-0 gap-12">
