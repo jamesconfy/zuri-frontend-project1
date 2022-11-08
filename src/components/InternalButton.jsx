@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function InternalButton({ title, address, id }) {
   return (
-    <div className="flex flex-row justify-center items-center p-0 gap-3 drop-shadow-2x w-full lg:w-4/5">
+    <div className="flex flex-row justify-center items-center p-0 gap-3 drop-shadow-2x md:w-4/5 w-full">
       <Link to={address} rel="noreferrer" className="pointer w-full">
         <button
           id={id}

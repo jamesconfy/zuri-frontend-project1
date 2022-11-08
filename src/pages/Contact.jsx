@@ -15,8 +15,13 @@ function Contact() {
             <form className="flex flex-col p-0 gap-8 w-full">
               <div className="flex flex-col md:items-start p-0 gap-6">
                 <div className="md:flex flex-row p-0 gap-6 w-full">
-                  <Input forHtml="first_name" label="First Name" placeholder="Enter your first name" type="text" id="first_name" />
-                  <Input forHtml="last_name" label="Last Name" placeholder="Enter your last name" type="text" id="last_name" mt="5" />
+                  <div className="w-full">
+                    <Input forHtml="first_name" label="First Name" placeholder="Enter your first name" type="text" id="first_name" />
+                  </div>
+
+                  <div className="w-full md:mt-0 mt-5">
+                    <Input forHtml="last_name" label="Last Name" placeholder="Enter your last name" type="text" id="last_name" />
+                  </div>
                 </div>
                 <Input forHtml="email" label="Email" placeholder="your@email.com" type="email" id="email" />
                 <TextArea id="message" />

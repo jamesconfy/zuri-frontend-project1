@@ -1,6 +1,6 @@
-function Input({ label, forHtml, placeholder, type, id, mt }) {
+function Input({ label, forHtml, placeholder, type, id }) {
   return (
-    <div className={`md:flex flex-col items-start p-0 gap-[6px] w-full md:m-0 mt-${mt}`}>
+    <div className={`md:flex flex-col items-start p-0 gap-[6px] w-full`}>
       <label htmlFor={forHtml} className="font-[500] text-[14px] leading-5 text-[#344054]">
         {label}
       </label>
